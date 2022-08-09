@@ -1,0 +1,122 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 1.4fr repeat(4, 1fr);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-radius: 5px;
+  margin: 1px;
+}
+
+.container-1 .darken-1 {
+  background-color: #e60000;
+  color: #19ffff;
+}
+.container-1 .lighten-1 {
+  background-color: #ff1a1a;
+  color: #00e5e5;
+}
+.container-1 .darken-2 {
+  background-color: #cc0000;
+  color: #33ffff;
+}
+.container-1 .lighten-2 {
+  background-color: #ff3333;
+  color: #00cccc;
+}
+.container-1 .darken-3 {
+  background-color: #b30000;
+  color: #4cffff;
+}
+.container-1 .lighten-3 {
+  background-color: #ff4d4d;
+  color: #00b2b2;
+}
+.container-1 .darken-4 {
+  background-color: #990000;
+  color: #66ffff;
+}
+.container-1 .lighten-4 {
+  background-color: #ff6666;
+  color: #009999;
+}
+.container-1 .base-color {
+  background-color: red;
+  color: white;
+}
+
+.container-2 {
+  color: #ffff4d;
+}
+.container-2 .darken-1 {
+  background-color: #0000e6;
+}
+.container-2 .lighten-1 {
+  background-color: #1a1aff;
+}
+.container-2 .darken-2 {
+  background-color: #0000cc;
+}
+.container-2 .lighten-2 {
+  background-color: #3333ff;
+}
+.container-2 .darken-3 {
+  background-color: #0000b3;
+}
+.container-2 .lighten-3 {
+  background-color: #4d4dff;
+}
+.container-2 .darken-4 {
+  background-color: #000099;
+}
+.container-2 .lighten-4 {
+  background-color: #6666ff;
+}
+.container-2 .base-color {
+  background-color: blue;
+  color: white;
+}
+
+.container-3 {
+  color: #ffff4d;
+}
+.container-3 .darken-1 {
+  background-color: #006700;
+}
+.container-3 .lighten-1 {
+  background-color: #009a00;
+}
+.container-3 .darken-2 {
+  background-color: #004d00;
+}
+.container-3 .lighten-2 {
+  background-color: #00b300;
+}
+.container-3 .darken-3 {
+  background-color: #003400;
+}
+.container-3 .lighten-3 {
+  background-color: #00cd00;
+}
+.container-3 .darken-4 {
+  background-color: #001a00;
+}
+.container-3 .lighten-4 {
+  background-color: #00e600;
+}
+.container-3 .base-color {
+  background-color: green;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
